@@ -48,7 +48,7 @@ class LoginDataViewController: UIViewController, UITextFieldDelegate {
            let tabBarController = segue.destination as! UITabBarController
            let destinationVC = tabBarController.viewControllers?.first as! SuccessfulLoginViewController
            
-           if segue.identifier == "showWelcome" {
+           if я{
                destinationVC.welcomeLabel = userNameTextField.text
            }
        }
